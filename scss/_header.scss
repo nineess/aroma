@@ -1,0 +1,27 @@
+.header {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.header-logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: $main-color;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-link {
+  text-decoration: none;
+  color: $text-color;
+  transition: 0.3s;
+
+  &:hover {
+    color: $main-color;
+  }
+}
