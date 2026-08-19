@@ -1,13 +1,13 @@
 .hero-image img {
   width: 100%;
-  height: 420px;
+  height: 500px;
   object-fit: cover;
   border-radius: 20px;
 }
 
 .hero {
-  background-color: $white-color;
-  padding: 60px 0;
+  background-color: $light-color;
+  padding: 40px 0;
 }
 
 .hero-content {
@@ -28,4 +28,59 @@
     background-color: $second-color;
     color: $white-color;
   }
+}
+
+
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card {
+    height: 100%;
+    border: 1px solid $light-color;
+    border-radius: 15px;
+    overflow: hidden;
+    padding-bottom: 15px;
+
+    &:hover {
+        border-color: $main-color;
+    }
+}
+
+.card button {
+    background-color: $main-color;
+    color: $white-color;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: $second-color;
+    }
+}
+
+.products {
+  padding-top: 40px;
+}
+
+.products h2 {
+  margin-bottom: 25px;
+  color: $text-color;
+}
+
+.card h3 {
+  margin: 15px 15px 5px;
+  color: $text-color;
+}
+
+.card p {
+  margin: 0 15px 15px;
+}
+
+.card button {
+  margin: 0 15px;
 }

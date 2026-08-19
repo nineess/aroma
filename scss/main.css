@@ -33,15 +33,15 @@
 
 .hero-image img {
   width: 100%;
-  height: 420px;
+  height: 500px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 20px;
 }
 
 .hero {
-  background-color: rgb(247, 244, 247);
-  padding: 60px 0;
+  background-color: rgb(187, 156, 198);
+  padding: 40px 0;
 }
 
 .hero-content {
@@ -62,4 +62,56 @@
 .hero-button:hover {
   background-color: rgb(106, 83, 188);
   color: rgb(247, 244, 247);
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card {
+  height: 100%;
+  border: 1px solid rgb(187, 156, 198);
+  border-radius: 15px;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+.card:hover {
+  border-color: rgb(133, 55, 133);
+}
+
+.card button {
+  background-color: rgb(133, 55, 133);
+  color: rgb(247, 244, 247);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.card button:hover {
+  background-color: rgb(106, 83, 188);
+}
+
+.products {
+  padding-top: 40px;
+}
+
+.products h2 {
+  margin-bottom: 25px;
+  color: rgb(71, 28, 83);
+}
+
+.card h3 {
+  margin: 15px 15px 5px;
+  color: rgb(71, 28, 83);
+}
+
+.card p {
+  margin: 0 15px 15px;
+}
+
+.card button {
+  margin: 0 15px;
 }/*# sourceMappingURL=main.css.map */
