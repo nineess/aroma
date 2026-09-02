@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  font-family: $main-font;
+  color: $text-color;
+  background: $white-color;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  padding: $section-padding 0;
+}
+
+.section-title {
+  margin-bottom: 15px;
+  text-align: center;
+  color: $text-color;
+  font-size: 40px;
+}
+
+.section-subtitle {
+  max-width: 650px;
+  margin: 0 auto 45px;
+  text-align: center;
+  color: #6f6272;
+}

@@ -3,90 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aroma Coffee</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="scss/main.css">
     
 </head>
 <body>
+
     <header class="header">
         <div class="container">
-                <div class="row">
-                    <div class="col-4 header-logo">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-4 header-logo">
                         AROMA
                     </div>
-                    <div class="col-8 navigation">
-                        <a href="#" class="header-link">Home</a>
-                        <a href="#" class="header-link">About</a>
-                        <a href="#" class="header-link">Menu</a>
-                        <a href="#" class="header-link">Gallery</a>
-                        <a href="#" class="header-link">Contact</a>
-                    </div>
+                    <nav class="col-12 col-md-8 navigation">
+                        <a href="index.html" class="header-link">Home</a>
+                        <a href="about.html" class="header-link">About</a>
+                        <a href="products.html" class="header-link">Menu</a>
+                        <a href="products.html#portfolio" class="header-link">Gallery</a>
+                        <a href="contact.html" class="header-button">Book table</a>
+                    </nav>
                 </div>
         </div>
     </header>
-    <section class="hero">
-    <div class="container">
-        <div class="row">
 
-            <div class="col-12 col-md-5 hero-content">
-                <h1 class="hero-title">Discover Your Perfect Coffee</h1>
+<main>
+
+  <section class="hero" id="home">
+
+    <div class="hero-slide hero-slide--one">
+        <img src="images/hero1.jpg" alt="Coffee shop interior">
+            <div class="hero-content">
+                <p class="hero-kicker">Welcome To Aroma</p>
+                <h1 class="hero-title">Savor The Perfect Cup Of Coffee</h1>
                 <p class="hero-text">
-                    Freshly brewed coffee made with passion.
+                    Freshly brewed coffee made with passion and a cozy place for coffee lovers.
                 </p>
-                <a href="#" class="hero-button">Explore Menu</a>
+                <a href="#menu" class="hero-button">Explore Menu</a>
             </div>
-
-            <div class="col-12 col-md-7 hero-image">
-                <img src="images/hero-coffe.jpg" alt="coffe">
-            </div>
-
-        </div>
     </div>
-</section>
 
-<section class="products">
+
+
+
+    <div class="hero-slide hero-slide--two">
+        <img src="images/hero2.jpg" alt="Coffee shop">
+        <div class="hero-content">
+            <p class="hero-kicker">
+                Discover Aroma
+            </p>
+            <h2 class="hero-title">Discover The Art Of Coffee Brewing</h2>
+            <p class="hero-text">
+                Carefully selected beans and simple preparation
+                come together in every cup.
+            </p>
+            <a href="about.html" class="hero-button">Our Story</a>
+        </div>
+
+    </div>
+
+    <div class="hero-slide hero-slide--three">
+        <img src="images/hero3.jpg" alt="Fresh coffee">
+        <div class="hero-content">
+            <p class="hero-kicker">
+                Coffee Lovers
+            </p>
+            <h2 class="hero-title">Coffee Made With Passion</h2>
+            <p class="hero-text">
+                Relax, meet friends and enjoy rich coffee flavors in a cozy atmosphere.
+            </p>
+            <a href="contact.html" class="hero-button">Contact Us</a>
+        </div>
+        
+    </div>
+  </section>
+
+<section class="about-preview">
     <div class="container">
-        <h2>Popular Coffee</h2>
-        <div class="row">
-            <div class="col-12 col-md-4">
-                <div class="card">
-                    <img src="images/espreso (2).jpg" alt="espreso">
-                    <h3>Espreso</h3>
-                    <p>Perfect Espreso</p>
-                    <button>Order Now</button>
-                </div>
-                
-            </div>
-            <div class="col-12 col-md-4">
-                <div class="card">
-                    <img src="images/cappuccino.jpg" alt="cappuccino">
-                    <h3>Cappuccino</h3>
-                    <p>Perfect Cappuccino</p>
-                    <button>Order Now</button>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="card">
-                    <img src="images/latte.jpg" alt="latte">
-                    <h3>Latte</h3>
-                    <p>Perfect Latte</p>
-                    <button>Order Now</button>
-                </div>
-            </div>
-            
-
+      <div class="row align-items-center g-5">
+        <div class="col-12 col-md-6">
+          <img src="images/about.svg" alt="Aroma coffee shop interior">
         </div>
+        <div class="col-12 col-md-6 about-preview-content">
+          <p class="hero-kicker">About Aroma</p>
+          <h2>Coffee Chronicles: Our Story</h2>
+          <p>At Aroma, we care about the full coffee experience — from carefully selected beans to the atmosphere around every cup.</p>
+          <p>We keep our menu simple, our ingredients fresh and our space welcoming.</p>
+          <a class="text-link" href="about.html">Discover Our Story →</a>
+        </div>
+      </div>
     </div>
-</section>
+  </section>
 
 
 
+  <section class="menu-section" id="menu">
+    <div class="container">
+      <h2 class="section-title">Our Menu</h2>
+      <p class="section-subtitle">A small selection of classic favorites to keep the experience simple and memorable.</p>
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <article class="menu-card">
+            <img src="images/espresso.jpg" alt="Espresso">
+            <div class="menu-card-content">
+              <h3>Espresso</h3>
+              <p>Rich, strong and classic.</p>
+              <span class="price">$4</span>
+            </div>
+          </article>
+        </div>
+        <div class="col-12 col-md-4">
+          <article class="menu-card">
+            <img src="images/cappuccino.jpg" alt="Cappuccino">
+            <div class="menu-card-content">
+              <h3>Cappuccino</h3>
+              <p>Balanced coffee with creamy foam.</p>
+              <span class="price">$5</span>
+            </div>
+          </article>
+        </div>
+        <div class="col-12 col-md-4">
+          <article class="menu-card">
+            <img src="images/latte.jpg" alt="Latte">
+            <div class="menu-card-content">
+              <h3>Latte</h3>
+              <p>Soft, smooth and comforting.</p>
+              <span class="price">$5</span>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="text-center mt-5">
+        <a class="hero-button" href="products.html">Explore Full Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <h2 class="section-title">Why Choose Us</h2>
+      <p class="section-subtitle">The details that make every Aroma visit special.</p>
+      <div class="row g-4">
+        <div class="col-12 col-md-3">
+          <article class="feature-card">
+            <div class="feature-icon">01</div>
+            <h3>Ethically Sourced</h3>
+            <p>We choose quality beans from trusted sources.</p>
+          </article>
+        </div>
+        <div class="col-12 col-md-3">
+          <article class="feature-card">
+            <div class="feature-icon">02</div>
+            <h3>Handcrafted</h3>
+            <p>Every drink is prepared with care.</p>
+          </article>
+        </div>
+        <div class="col-12 col-md-3">
+          <article class="feature-card">
+            <div class="feature-icon">03</div>
+            <h3>Warm Ambiance</h3>
+            <p>A calm place to meet, work or relax.</p>
+          </article>
+        </div>
+        <div class="col-12 col-md-3">
+          <article class="feature-card">
+            <div class="feature-icon">04</div>
+            <h3>Fresh Goodies</h3>
+            <p>Coffee pairs with freshly baked treats.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
+</main>
 
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

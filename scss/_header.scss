@@ -1,27 +1,42 @@
 .header {
+  position: relative;
+  z-index: 10;
   padding: 20px 0;
-  border-bottom: 1px solid #eee;
+  background: $white-color;
+  border-bottom: 1px solid $border-color;
 }
 
 .header-logo {
-  font-size: 30px;
-  font-weight: bold;
   color: $main-color;
+  font-size: 31px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .navigation {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  gap: 30px;
+  justify-content: flex-end;
+  gap: 28px;
 }
 
 .header-link {
-  text-decoration: none;
   color: $text-color;
   transition: 0.3s;
 
   &:hover {
     color: $main-color;
+  }
+}
+
+.header-button {
+  @include button-style;
+  padding: 9px 18px;
+  color: $white-color;
+  background: $main-color;
+
+  &:hover {
+    color: $white-color;
+    background: $second-color;
   }
 }
