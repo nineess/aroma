@@ -1,0 +1,53 @@
+.contact-info {
+  padding: 30px;
+  border-radius: $border-radius;
+  background: $light-color;
+
+  h2 {
+    margin-bottom: 20px;
+    color: $text-color;
+  }
+
+  p {
+    margin-bottom: 12px;
+  }
+}
+
+.contact-form {
+  padding: 30px;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background: $white-color;
+
+  label {
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    margin-bottom: 18px;
+    padding: 12px;
+    border: 1px solid $border-color;
+    border-radius: 8px;
+  }
+
+  button {
+    @include button-style;
+    border: 0;
+    color: $white-color;
+    background: $main-color;
+
+    &:hover {
+      background: $second-color;
+    }
+  }
+}
+
+.contact-photo {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: $border-radius;
+}

@@ -384,6 +384,31 @@ section {
   background: rgb(106, 83, 188);
 }
 
+.footer {
+  padding: 55px 0 25px;
+  color: rgb(247, 244, 247);
+  background: rgb(39, 20, 44);
+}
+.footer h3 {
+  margin-bottom: 15px;
+}
+.footer a {
+  display: block;
+  margin-bottom: 6px;
+  color: rgb(247, 244, 247);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer a:hover {
+  color: rgb(187, 156, 198);
+}
+.footer .footer-bottom {
+  margin-top: 35px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  text-align: center;
+}
+
 .about-hero,
 .products-hero,
 .contact-hero {
@@ -420,4 +445,57 @@ section {
   background: rgb(247, 244, 247);
   height: 100%;
   padding: 30px;
+}
+
+.contact-info {
+  padding: 30px;
+  border-radius: 16px;
+  background: rgb(187, 156, 198);
+}
+.contact-info h2 {
+  margin-bottom: 20px;
+  color: rgb(71, 28, 83);
+}
+.contact-info p {
+  margin-bottom: 12px;
+}
+
+.contact-form {
+  padding: 30px;
+  border: 1px solid rgb(220, 207, 224);
+  border-radius: 16px;
+  background: rgb(247, 244, 247);
+}
+.contact-form label {
+  display: block;
+  margin-bottom: 6px;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 18px;
+  padding: 12px;
+  border: 1px solid rgb(220, 207, 224);
+  border-radius: 8px;
+}
+.contact-form button {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 0;
+  color: rgb(247, 244, 247);
+  background: rgb(133, 55, 133);
+}
+.contact-form button:hover {
+  background: rgb(106, 83, 188);
+}
+
+.contact-photo {
+  width: 100%;
+  height: 380px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 16px;
 }/*# sourceMappingURL=main.css.map */
